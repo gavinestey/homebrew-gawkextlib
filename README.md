@@ -13,7 +13,7 @@ brew install gawkextlib-csv
  
 ### Add to `~/.bash_profile`
 
-The forumula separates out the two libraries, `csv` is installed from git due to there being no official release, the last commit was 2018-04-10.
+The formula separates out the two libraries, `csv` is installed from git due to there being no official release, the last commit was 2018-04-10.
 
 ```
 export AWKLIBPATH=$(brew --prefix gawkextlib-csv)/lib/gawk
