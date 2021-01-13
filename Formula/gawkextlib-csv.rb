@@ -1,9 +1,9 @@
 class GawkextlibCsv < Formula
   desc "Extends gawk with CSV support"
   homepage "https://gawkextlib.sourceforge.io/csv/csv.html"
-  url "https://downloads.sourceforge.net/code-snapshots/git/g/ga/gawkextlib/code.git/gawkextlib-code-9ec2589edd164e18aba27cb854f22a0bca62763f.zip"
-  version "2018-04-10"
-  sha256 "33dccfbf75f6d86690f23d73e431d9f4fb342b758c374d259476cc1a68b986ee"
+  url "https://downloads.sourceforge.net/project/gawkextlib/snapshot/gawk-csv-snapshot.tar.gz"
+  version "1.0.0"
+  sha256 "c6120d267d678b144a3e4272d167a0cba6e535a2c72dea7b22aa23da4aac3758"
 
   depends_on "autoconf" => :build
   depends_on "automake" => :build
